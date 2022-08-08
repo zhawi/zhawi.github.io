@@ -50,12 +50,12 @@ body {
   
   .button-blue:hover {
     background-color: #0D1EC6;
-  color: white;
+    color: white;
   }
 
   .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
   }
 
@@ -67,6 +67,12 @@ body {
     text-align: center;
     padding: 24px;
     margin: 8px;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .card-white:hover {
+    background: rgb(200,200,200);
   }
   
   .cards img {
@@ -124,6 +130,6 @@ body {
   
   @media (min-width: 1000px) {
     .container {
-      width: 800px;
+      width: 1200px;
     }
   }
